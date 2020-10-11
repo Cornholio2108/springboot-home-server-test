@@ -1,5 +1,9 @@
-C:\Users\chris\StudioProjects\spring-boot-faces-master\src\main\java\com\auth0\samples\bootfaces\Application.java
-C:\Users\chris\StudioProjects\spring-boot-faces-master\src\main\java\com\auth0\samples\bootfaces\Product.java
-C:\Users\chris\StudioProjects\spring-boot-faces-master\src\main\java\com\auth0\samples\bootfaces\ProductController.java
-C:\Users\chris\StudioProjects\spring-boot-faces-master\src\main\java\com\auth0\samples\bootfaces\ProductRepository.java
-C:\Users\chris\StudioProjects\spring-boot-faces-master\src\main\java\com\auth0\samples\bootfaces\ProductListController.java
+C:\Users\chris\StudioProjects\spring-boot-faces-master\src\main\java\com\home_server\example\bootfaces\ProductController.java
+C:\Users\chris\StudioProjects\spring-boot-faces-master\src\main\java\com\home_server\example\bootfaces\ShoppingListItem.java
+C:\Users\chris\StudioProjects\spring-boot-faces-master\src\main\java\com\home_server\example\bootfaces\Application.java
+C:\Users\chris\StudioProjects\spring-boot-faces-master\src\main\java\com\home_server\example\bootfaces\ProductListController.java
+C:\Users\chris\StudioProjects\spring-boot-faces-master\src\main\java\com\home_server\example\bootfaces\Product.java
+C:\Users\chris\StudioProjects\spring-boot-faces-master\src\main\java\com\home_server\example\bootfaces\ProductRepository.java
+C:\Users\chris\StudioProjects\spring-boot-faces-master\src\main\java\com\home_server\example\bootfaces\ShoppingList.java
+C:\Users\chris\StudioProjects\spring-boot-faces-master\src\main\java\com\home_server\example\bootfaces\ShoppingListRepository.java
+C:\Users\chris\StudioProjects\spring-boot-faces-master\src\main\java\com\home_server\example\bootfaces\ShoppingListController.java

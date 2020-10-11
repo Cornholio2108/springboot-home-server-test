@@ -1,4 +1,4 @@
-package com.auth0.samples.bootfaces;
+package com.home_server.example.bootfaces;
 
 import org.ocpsoft.rewrite.annotation.Join;
 import org.ocpsoft.rewrite.el.ELBeanName;

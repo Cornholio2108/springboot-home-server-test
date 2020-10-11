@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Implementation-Title: spring-boot-faces
 Implementation-Version: 1.0-SNAPSHOT
 Built-By: chris
-Implementation-Vendor-Id: com.auth0.samples
+Implementation-Vendor-Id: com.home_server.example
 Build-Jdk: 1.8.0_265
 Implementation-URL: http://projects.spring.io/spring-boot/spring-boot-
  faces/

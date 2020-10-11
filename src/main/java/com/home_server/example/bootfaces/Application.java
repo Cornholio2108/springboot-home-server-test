@@ -1,4 +1,4 @@
-package com.auth0.samples.bootfaces;
+package com.home_server.example.bootfaces;
 
 import java.util.EnumSet;
 import java.util.Scanner;
@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
 @EnableAutoConfiguration
-@ComponentScan({ "com.auth0.samples.bootfaces" })
+@ComponentScan({ "com.home_server.example.bootfaces" })
 public class Application extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
