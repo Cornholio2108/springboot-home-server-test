@@ -9,22 +9,72 @@
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Product</title>
+		<title>Home-Server</title>
 	</h:head>
 	<h:body>
-		<div class="ui-g">
-			<div class="ui-g-12">
-				<p:toolbar>
-					<f:facet name="left">
-						<p:button href="/" value="Einkaufslisten" />
-						<p:button href="/addshoppinglist" value="Neue Einkaufsliste" />
-					</f:facet>
-				</p:toolbar>
-			</div>
-			<div class="ui-g-12">
-				<ui:insert name="content" />
-			</div>
-		</div>
+		<h:form id="mainLayoutForm">
+			<h:outputText>Home Server</h:outputText>
+			<p:panelGrid>
+				<p:row>
+					<p:column>
+						<p:commandButton value="Einkaufslisten"
+							action="shoppinglists.xhmtl?faces-redirect=true">
+						</p:commandButton>
+					</p:column>
+					<p:column>
+						<p:commandButton value="Fotos">
+							<!-- 						actionListener="#{mainController.users()}"> -->
+							<!-- 					oncomplete="PF('usersDialog').show()"> -->
+						</p:commandButton>
+					</p:column>
+					<p:column>
+						<p:commandButton value="Musik">
+						</p:commandButton>
+					</p:column>
+				</p:row>
+				<p:row>
+					<p:column>
+						<p:commandButton value="Wetter">
+						</p:commandButton>
+					</p:column>
+					<p:column>
+						<p:commandButton value="Verkehr">
+						</p:commandButton>
+					</p:column>
+					<p:column>
+						<p:commandButton value="Kalender">
+						</p:commandButton>
+					</p:column>
+				</p:row>
+				<p:row>
+					<p:column>
+						<p:commandButton value="ToDo">
+						</p:commandButton>
+					</p:column>
+					<p:column>
+						<p:commandButton value="Notizen">
+						</p:commandButton>
+					</p:column>
+					<p:column>
+						<p:commandButton value="SmartHome">
+						</p:commandButton>
+					</p:column>
+				</p:row>
+			</p:panelGrid>
+			<!-- 		<div class="ui-g"> -->
+			<!-- 			<div class="ui-g-12"> -->
+			<!-- 				<p:toolbar> -->
+			<!-- 					<f:facet name="left"> -->
+			<!-- 						<p:button href="/" value="Einkaufslisten" /> -->
+			<!-- 						<p:button href="/addshoppinglist" value="Neue Einkaufsliste" /> -->
+			<!-- 					</f:facet> -->
+			<!-- 				</p:toolbar> -->
+			<!-- 			</div> -->
+			<!-- 			<div class="ui-g-12"> -->
+			<!-- 				<ui:insert name="content" /> -->
+			<!-- 			</div> -->
+			<!-- 		</div> -->
+		</h:form>
 	</h:body>
 </f:view>
 </html>

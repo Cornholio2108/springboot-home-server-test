@@ -1,31 +1,41 @@
-package com.home_server.example.bootfaces;
+package com.home_server.example.bootfaces.shoppinglist;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 @Entity
-@Table(name = "shoppinglist")
-public class ShoppingList {
+@Table(name = "shoppinglist_item")
+public class ShoppingListItem {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column(name = "shoppinglist_id")
-	private Long shoppingListID;
+	@Column(name = "item_id")
+	private Long itemID;
 
 	@Column(name = "name")
 	private String name;
+
+	@Column(name = "description")
+	private String description;
+
+	@Column(name = "scan_number")
+	private String scanNumber;
+
+	@Column(name = "shop")
+	private String shop;
 
 	@Column(name = "price")
 	private BigDecimal price;
@@ -38,20 +48,20 @@ public class ShoppingList {
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date modificationDate;
 
-	@OneToMany(mappedBy = "shoppingList", cascade = CascadeType.ALL)
-	private List<ShoppingListItem> items = new ArrayList<ShoppingListItem>();
+	@ManyToOne
+	@JoinColumn(name = "shoppinglist_id")
+	private ShoppingList shoppingList;
 
-	public ShoppingList() {
+	public ShoppingListItem() {
 		super();
-		this.creationDate=new Date();
 	}
 
-	public Long getShoppingListID() {
-		return shoppingListID;
+	public Long getItemID() {
+		return itemID;
 	}
 
-	public void setShoppingListID(Long shoppingListID) {
-		this.shoppingListID = shoppingListID;
+	public void setItemID(Long itemID) {
+		this.itemID = itemID;
 	}
 
 	public String getName() {
@@ -60,6 +70,30 @@ public class ShoppingList {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public String getScanNumber() {
+		return scanNumber;
+	}
+
+	public void setScanNumber(String scanNumber) {
+		this.scanNumber = scanNumber;
+	}
+
+	public String getShop() {
+		return shop;
+	}
+
+	public void setShop(String shop) {
+		this.shop = shop;
 	}
 
 	public BigDecimal getPrice() {
@@ -86,11 +120,11 @@ public class ShoppingList {
 		this.modificationDate = modificationDate;
 	}
 
-	public List<ShoppingListItem> getItems() {
-		return items;
+	public ShoppingList getShoppingList() {
+		return shoppingList;
 	}
 
-	public void setItems(List<ShoppingListItem> items) {
-		this.items = items;
+	public void setShoppingList(ShoppingList shoppingList) {
+		this.shoppingList = shoppingList;
 	}
 }

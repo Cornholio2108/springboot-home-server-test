@@ -1,9 +1,9 @@
-C:\Users\chris\StudioProjects\spring-boot-faces-master\src\main\java\com\home_server\example\bootfaces\ProductController.java
-C:\Users\chris\StudioProjects\spring-boot-faces-master\src\main\java\com\home_server\example\bootfaces\ShoppingListItem.java
-C:\Users\chris\StudioProjects\spring-boot-faces-master\src\main\java\com\home_server\example\bootfaces\Application.java
-C:\Users\chris\StudioProjects\spring-boot-faces-master\src\main\java\com\home_server\example\bootfaces\ProductListController.java
-C:\Users\chris\StudioProjects\spring-boot-faces-master\src\main\java\com\home_server\example\bootfaces\Product.java
-C:\Users\chris\StudioProjects\spring-boot-faces-master\src\main\java\com\home_server\example\bootfaces\ProductRepository.java
-C:\Users\chris\StudioProjects\spring-boot-faces-master\src\main\java\com\home_server\example\bootfaces\ShoppingList.java
-C:\Users\chris\StudioProjects\spring-boot-faces-master\src\main\java\com\home_server\example\bootfaces\ShoppingListRepository.java
-C:\Users\chris\StudioProjects\spring-boot-faces-master\src\main\java\com\home_server\example\bootfaces\ShoppingListController.java
+C:\Users\chris\StudioProjects\spring-boot homeserver\src\main\java\com\home_server\example\bootfaces\product\ProductListController.java
+C:\Users\chris\StudioProjects\spring-boot homeserver\src\main\java\com\home_server\example\bootfaces\product\ProductRepository.java
+C:\Users\chris\StudioProjects\spring-boot homeserver\src\main\java\com\home_server\example\bootfaces\product\Product.java
+C:\Users\chris\StudioProjects\spring-boot homeserver\src\main\java\com\home_server\example\bootfaces\Application.java
+C:\Users\chris\StudioProjects\spring-boot homeserver\src\main\java\com\home_server\example\bootfaces\shoppinglist\ShoppingList.java
+C:\Users\chris\StudioProjects\spring-boot homeserver\src\main\java\com\home_server\example\bootfaces\shoppinglist\ShoppingListRepository.java
+C:\Users\chris\StudioProjects\spring-boot homeserver\src\main\java\com\home_server\example\bootfaces\shoppinglist\ShoppingListController.java
+C:\Users\chris\StudioProjects\spring-boot homeserver\src\main\java\com\home_server\example\bootfaces\product\ProductController.java
+C:\Users\chris\StudioProjects\spring-boot homeserver\src\main\java\com\home_server\example\bootfaces\shoppinglist\ShoppingListItem.java

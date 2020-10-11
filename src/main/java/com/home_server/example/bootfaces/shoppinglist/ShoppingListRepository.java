@@ -1,4 +1,4 @@
-package com.home_server.example.bootfaces;
+package com.home_server.example.bootfaces.shoppinglist;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
