@@ -1,4 +1,4 @@
-package com.home_server.example.bootfaces;
+package com.home_server.example.bootfaces.product;
 
 import org.ocpsoft.rewrite.annotation.Join;
 import org.ocpsoft.rewrite.el.ELBeanName;

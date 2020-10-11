@@ -8,14 +8,29 @@
 <ui:composition template="layout.xhtml">
 	<ui:define name="content">
 		<h:form id="shoppinglistForm">
-			<p:panel header="Einkaufslisten">
+			<p:panel header="Einkaufsliste">
 				<h:panelGrid columns="1">
+					<p:outputLabel for="id" value="ID: " />
+					<p:inputText id="id"
+						value="#{shoppingListController.shoppingList.shoppingListID}"
+						disabled="#{true}" />
 					<p:outputLabel for="name" value="Name: " />
-					<p:inputText id="name" value="#{shoppingListController.shoppingList.name}" />
-					<p:outputLabel for="price" value="Price: " />
+					<p:inputText id="name"
+						value="#{shoppingListController.shoppingList.name}" />
+					<p:outputLabel for="creationDate" value="Erstelldatum: " />
+					<p:inputNumber id="creationDate"
+						value="#{shoppingListController.shoppingList.creationDate}"
+						disabled="#{true}" />
+					<p:outputLabel for="modificationDate" value="Änderungsdatum: " />
+					<p:inputNumber id="modificationDate"
+						value="#{shoppingListController.shoppingList.modificationDate}"
+						disabled="#{true}" />
+					<p:outputLabel for="price" value="Preis: " />
 					<p:inputNumber id="price"
-						value="#{shoppingListController.shoppingList.price}" />
-					<h:commandButton value="Save" action="#{shoppingListController.save}" />
+						value="#{shoppingListController.shoppingList.price}"
+						disabled="#{true}" />
+					<h:commandButton value="Speichern"
+						action="#{shoppingListController.save}" />
 				</h:panelGrid>
 			</p:panel>
 		</h:form>
