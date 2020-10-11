@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Scope(value = "session")
 @Component(value = "shoppingListController")
 @ELBeanName(value = "shoppingListController")
-@Join(path = "/shoppinglist", to = "/shoppinglist-form.jsf")
+@Join(path = "/addshoppinglist", to = "/shoppinglist-form.jsf")
 public class ShoppingListController {
 	@Autowired
 	private ShoppingListRepository shoppingListRepository;
