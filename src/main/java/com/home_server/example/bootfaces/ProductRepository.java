@@ -1,4 +1,4 @@
-package com.auth0.samples.bootfaces;
+package com.home_server.example.bootfaces;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
