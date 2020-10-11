@@ -43,6 +43,7 @@ public class ShoppingList {
 
 	public ShoppingList() {
 		super();
+		this.creationDate=new Date();
 	}
 
 	public Long getShoppingListID() {
